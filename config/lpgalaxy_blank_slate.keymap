@@ -126,8 +126,8 @@
             label = "Sym";
             bindings = <
 &kp TILDE     &kp EXCL   &kp AT   &kp HASH    &kp DLLR     &kp PRCNT     &kp CARET     &kp AMPS    &kp STAR       &kp LPAR       &kp RPAR     &bootloader
-&trans     &kp UNDER  &kp PLUS   &trans   &kp K_MUTE    &kp K_VOL_DN     &kp K_VOL_UP     &trans    &trans       &kp LBKT       &kp RBKT     &kp BSLH
-&trans     &trans  &trans   &trans      &kp K_PP     &kp K_PREV     &kp K_NEXT     &trans    &trans       &trans       &trans     &trans
+&trans     &kp UNDER  &kp PLUS   &trans   &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP     &trans    &trans       &kp LBKT       &kp RBKT     &kp BSLH
+&trans     &trans  &trans   &trans      &kp C_PP     &kp C_PREV     &kp C_NEXT     &trans    &trans       &trans       &trans     &trans
 #ifdef TBLE_DUAL_2U
 &trans &trans        &trans     &kp RPAR                &trans                    &trans       &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
